@@ -5,21 +5,43 @@
   |============================
 */
 @import url('./reset.css');
-@import url('./vite-promo.css');
 @import url('./header.css');
 
 :root {
+  --main-color: #fdfbf8;
+  --second-color: #efe5db;
+  --white: #ffffff;
+  --accent-color: #cd825b;
+  --accent-hover: #cc805a;
+  --text-price: #858e99;
+  --black: #000000;
+
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: var(--main-color);
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  body {
+    margin: 0 auto;
+  }
 }
