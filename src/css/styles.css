@@ -6,6 +6,8 @@
 */
 @import url('./reset.css');
 @import url('./header.css');
+@import url('./contacts.css');
+@import url('./hero.css');
 
 :root {
   --main-color: #fdfbf8;
