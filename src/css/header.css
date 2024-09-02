@@ -19,3 +19,24 @@
 .nav-link:focus {
   color: #747bff;
 }
+
+.header-btn {
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 33px;
+  background-color: var(--second-button-color);
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.header-btn svg {
+  width: 14px;
+  height: 14px;
+  stroke: var(--white);
+  fill: transparent;
+}
