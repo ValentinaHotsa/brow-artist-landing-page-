@@ -10,14 +10,30 @@
 @import url('./hero.css');
 
 :root {
-  --main-color: #fdfbf8;
-  --second-color: #efe5db;
+  --main-color: #ffffff;
+  --background-color: #a2b3bf;
   --white: #ffffff;
-  --accent-color: #cd825b;
-  --accent-hover: #cc805a;
-  --text-price: #858e99;
-  --black: #000000;
 
+  --text-price: #;
+  --black-text: #141414;
+  --gray-text: #555555;
+  --button-color: #5c8692;
+
+  /* 9BB7BF
+1E2C30
+272D32
+7A9CA5
+EDF5F7
+272D32
+D0D0D0
+272D32
+EBF3F5
+111E22
+84A8B2
+95BFCB
+
+EDF5F7
+c4c4c4 */
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
