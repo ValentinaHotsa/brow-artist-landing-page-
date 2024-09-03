@@ -8,6 +8,7 @@
 @import url('./header.css');
 @import url('./contacts.css');
 @import url('./hero.css');
+@import url('./features.css');
 
 :root {
   --main-color: #ffffff;
@@ -39,6 +40,7 @@ c4c4c4 */
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
+  box-sizing: border-box;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

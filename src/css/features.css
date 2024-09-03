@@ -1,0 +1,47 @@
+.section-features {
+}
+
+.header-features {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.list-features {
+}
+
+.item-features {
+}
+
+.item-wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.item-wrap h3 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.item-wrap p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 175%;
+}
+
+.icon-wrap {
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgb(30, 44, 48);
+  background: rgb(242, 252, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-wrap svg {
+  fill: rgb(92, 134, 146);
+  /* width: 48.47px;
+  height: 72px; */
+}
