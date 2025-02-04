@@ -4,6 +4,12 @@
   justify-content: center;
   flex-direction: column;
   padding: 100px;
+  min-width: 320px;
+  max-width: 396px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .header-features {

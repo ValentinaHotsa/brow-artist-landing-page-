@@ -50,8 +50,10 @@ c4c4c4 */
 }
 
 body {
-  background-color: var(--main-color);
-  margin: 0;
+  background-color: var(--second-button-color);
+  /* display: grid; */
+  /* place-items: center; */
+  min-height: 100vh;
 }
 
 @media screen and (max-width: 767px) {
@@ -65,4 +67,11 @@ body {
   body {
     margin: 0 auto;
   }
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
